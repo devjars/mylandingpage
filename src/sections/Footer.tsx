@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import {  FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 
-import logo from "../assets/j-high-resolution-logo (2) (1).webp";
+import logo from "../assets/jarslogo.webp";
 import { nav } from "./Headers";
 
 function Footer() {
@@ -14,19 +14,19 @@ function Footer() {
         <div>
           <div className="flex items-center gap-1">
             <img className="h-9 rounded-md shadow-md shadow-black/50" src={logo} alt="ars. logo" />
-            <h1 className="text-white text-3xl font-black font-logo">ars.</h1>
+            <h2 className="text-white text-3xl font-black font-logo">ars.</h2>
           </div>
-          <p className="mt-4 font-secondary">
+          <p className="mt-4 font-secondary lg:text-lg">
             Building fast, responsive, and effective websites tailored to your business goals.
           </p>
            <div className="flex items-center space-x-4 mt-8 text-3xl text-white">
-            <a href="https://facebook.com/yourprofile" target="_blank" rel="noreferrer" className="hover:text-gray-400">
+            <a href="https://facebook.com/yourprofile" aria-label="go to facebook"  target="_blank" rel="noreferrer" className="hover:text-gray-400">
               <FaFacebookSquare />
             </a>
-            <a href="https://instagram.com/yourprofile" target="_blank" rel="noreferrer" className="hover:text-gray-400">
+            <a href="https://instagram.com/yourprofile" aria-label="goto instagram" target="_blank" rel="noreferrer" className="hover:text-gray-400">
               <FaInstagram />
             </a>
-            <a href="https://twitter.com/yourhandle" target="_blank" rel="noreferrer" className="hover:text-gray-400">
+            <a href="https://twitter.com/yourhandle"   aria-label="goto X"  target="_blank" rel="noreferrer" className="hover:text-gray-400">
               <FaXTwitter />
             </a>
           </div>
@@ -34,9 +34,9 @@ function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h2 className="text-white font-semibold mb-2">Quick Links</h2>
+          <h2 className="text-white font-semibold mb-2 lg:text-xl">Quick Links</h2>
           <nav aria-label="Footer navigation">
-            <ul className="font-secondary mt-4 space-y-2">
+            <ul className="font-secondary mt-4 space-y-2 lg:text-lg">
               {nav.map((section) => (
                 <li key={section} className="capitalize ">
                   <Link
@@ -56,10 +56,10 @@ function Footer() {
 
         {/* Contact & Socials */}
         <div>
-          <h2 className="text-white font-semibold mb-2">Get in Touch</h2>
+          <h2 className="text-white font-semibold mb-2 lg:text-xl">Get in Touch</h2>
           <p>
             Email:{" "}
-            <a href="mailto:johnanthonysolana@gmail.com" className="hover:text-white">
+            <a href="mailto:johnanthonysolana@gmail.com" className="hover:text-white text-lg">
               johnanthonysolana@gmail.com
             </a>
           </p>
@@ -67,7 +67,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="w-full  mt-12 bg-black text-center text-gray-500 text-xs border-t border-gray-700 py-4">
+      <div className="w-full  mt-12 bg-black text-center text-gray-500 text-xs border-t lg:text-sm border-gray-700 py-4">
         © {new Date().getFullYear()} Jars.dev. All rights reserved.
       </div>
     </footer>

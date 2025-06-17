@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react"
-import logo from "../assets/j-high-resolution-logo (2) (1).webp"
+import logo from "../assets/jarslogo.webp"
 import { Link } from "react-scroll"
 
  export const nav : string [] = ['home','services','contact']
@@ -50,9 +50,12 @@ useEffect(()=>{
             <nav>
                 <ul className={`transition-all duration-300 ease-in-out overflow-hidden  ${isOpen? 'flex flex-col  mt-8 font-medium text-xl   opacity-100' : 'max-h-0 opacity-0'} capitalize lg:mt-0 lg:flex lg:flex-row lg:items-center lg:max-h-full lg:opacity-100  text-white`}>
                     {nav.map((li)=>(
-                        <Link key={li} to={li} smooth={true} duration={700} spy={true}>
-                            <li className="ml-4 py-2 text-xl font-medium cursor-pointer transition-all ease-in duration-300 hover:text-ctmblue">{li}</li>
-                        </Link>
+                       <li key={li} className="ml-4 py-2 text-xl font-medium cursor-pointer transition-all ease-in duration-300 hover:text-ctmblue">
+  <Link  to={li} smooth={true} duration={700} spy={true}>
+    {li}
+  </Link>
+</li>
+
                     ))}
                 </ul>
             </nav>

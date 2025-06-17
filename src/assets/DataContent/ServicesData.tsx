@@ -1,11 +1,8 @@
   import {
-
   FaLaptopCode,
   FaRocket ,
     FaSearch,
   FaUniversalAccess,
-   
-     
 } from 'react-icons/fa';
 import { HiOutlineSparkles } from 'react-icons/hi';
 import { BiDevices,BiBug } from 'react-icons/bi';
@@ -14,11 +11,6 @@ import { TbRocket } from 'react-icons/tb';
 
 
 
-import Rocketanimation from "../../assets/rocket.json"
-import Responsive from "../../assets/responsive.json"
-import CustomeDev from "../../assets/customdev.json"
-import Optimization from "../../assets/optimizaion.json"
-import Handshake from "../../assets/handshake.json"
 import type { IconType } from "react-icons";
 
 

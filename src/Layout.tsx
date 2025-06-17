@@ -1,4 +1,4 @@
-import Footer from "./sections/Footer";
+import   Footer from "./sections/Footer"
 import Header from "./sections/Headers"
 
 type props = {
@@ -9,10 +9,10 @@ function Layout({children} : props) {
       <div className="w-full flex flex-col items-center ">
           <Header/>
 
-          <main className="w-full  flex flex-col items-center max-w-[1536px]  bg-black ">
+          <main className="w-full  flex flex-col items-center max-w-[1536px]  bg-black overflow-hidden">
           {children}
           </main>
-          <Footer/>
+              <Footer/>
       </div>
   );
 }
