@@ -16,7 +16,7 @@ function ThumbnailMarquee() {
     <div className="w-full mt-4  " >
        <FastMarquee speed={40} gradient={false} direction="right"   autoFill={true} className=""  >
         {thumbnail1.map((img,index)=>(
-             <img loading="lazy" key={index} src={img} alt={`Thumbnail ${index}`} className="h-[30vh] w-full object-cover md:-[40vh] lg:h-[45vh] xl:h-[50vh] rounded-2xl p-1  " />
+             <img loading="lazy" key={index} src={img} alt={`Thumbnail ${index}`} className="h-[30vh] w-full object-cover md:h-[40vh] lg:h-[45vh] xl:h-[50vh] rounded-2xl p-1  " />
            
         ))}
 
