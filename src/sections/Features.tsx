@@ -13,7 +13,7 @@ function Features() {
              
               className="w-full flex flex-col items-end pr-2 sm:pr-8 md:pr-4">
                <motion.h2 
-               initial={{opacity : 0, x : 50}}
+              initial={{ opacity: 1, y: 0 }}
                whileInView={{opacity: 1 ,x : 0}}
                 viewport={{ once: true, amount: 0.6 }}
                transition={{duration :0.9, ease : 'easeOut'}}
