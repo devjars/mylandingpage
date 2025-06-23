@@ -11,7 +11,7 @@ import {motion} from "framer-motion"
 import texture from "../assets/dark-mosaic.png"
 function Contact() {
   return (
-    <Element name="contact" className="w-full flex justify-center  "
+    <Element name="contact" className="w-full flex justify-center pt-8 "
        >
         <div className="w-full  flex flex-col items-center   "
             
@@ -80,7 +80,7 @@ function Contact() {
 
         <Element
          name="messageform" 
-         className="w-full  mt-32 flex flex-col items-center gap-16 lg:flex-row lg:justify-center lg:items-start sm:w-[90%] pb-32"
+         className="w-full  mt-16 flex flex-col items-center gap-16 lg:flex-row lg:justify-center lg:items-start sm:w-[90%] pb-32"
           >
            <motion.div 
            initial={{opacity: 0 ,x: -50}}

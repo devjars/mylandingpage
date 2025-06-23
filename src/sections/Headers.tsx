@@ -27,7 +27,7 @@ useEffect(()=>{
 
  
   return (
-    <header ref={headerRef} className="w-[85%] py-3 px-4 fixed bg-white/10 border border-white/10 backdrop-blur-md shadow-lg mt-5 rounded-2xl z-50 md:w-[70%] lg:w-[70%] xl:w-[60%]">
+    <header ref={headerRef} className="w-[85%] py-3 px-4 fixed bg-white/10 border border-white/10 backdrop-blur-md shadow-lg mt-5 rounded-2xl z-50 md:w-[70%] lg:py-2 lg:w-[70%] xl:w-[60%]">
         <div className="w-full flex flex-col  lg:flex-row lg:justify-between lg:items-center ">
 
            <div className=" flex items-center justify-between">
@@ -60,7 +60,7 @@ useEffect(()=>{
                 </ul>
             </nav>
 
-            <button className={`${isOpen? 'block mt-4 bg-ctmblue text-gray-300' : 'hidden'} lg:mt-0 lg:bg-white lg:text-gray-900 font-medium px-4 py-2 rounded-xl lg:block outline-0 transition-all ease-in duration-300 hover:bg-ctmblue hover:text-white cursor-pointer  `}>My Portpolio</button> 
+            <button className={`${isOpen? 'block mt-4 bg-ctmblue text-gray-300' : 'hidden'} lg:mt-0 lg:bg-white lg:text-gray-900 font-medium px-4 py-2 rounded-xl lg:block outline-0 transition-all ease-in duration-300 hover:bg-ctmblue hover:text-white cursor-pointer  `}>View Portpolio</button> 
     
 
 

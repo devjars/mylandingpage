@@ -25,7 +25,7 @@ function Hero() {
             whileInView={{opacity: 1, y : 0}}
          transition={{ duration: 0.8, ease: "easeOut" }}
          className=' grid place-items-center mt-12 text-center lg:mt-16  '>
-          <h1 className='text-3xl font-bold uppercase text-gray-300 text-shadow-2xs text-shadow-black sm:text-4xl md:text-6xl lg:text-7xl'>
+          <h1 className='text-3xl font-bold uppercase text-gray-300  text-shadow-2xs text-shadow-black sm:text-4xl md:text-6xl lg:text-7xl'>
 Crafting Sites That Look Good & Work Great.</h1>
           <h2 className='text-gray-300 mt-8 text-base lg:text-2xl lg:mt-12'>Looking for a reliable web developer for your next project? I’m here to help.</h2>
        <Link to="messageform" smooth={true} duration={700} offset={-100}>
