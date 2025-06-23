@@ -21,7 +21,7 @@ function ThumbnailMarquee() {
     loading="lazy"
     src={img}
     alt={`Thumbnail ${index}`}
-    className="h-[40vh] w-full object-cover rounded-2xl"
+    className="h-[30vh] w-full object-cover rounded-xl md:h-[40vh] lg:h-[45vh] xl:h-[50vh]"
   />
 </div>
 
@@ -37,7 +37,7 @@ function ThumbnailMarquee() {
     loading="lazy"
     src={img}
     alt={`Thumbnail ${index}`}
-    className="h-[40vh] w-full object-cover rounded-2xl"
+    className="h-[30vh] w-full object-cover rounded-xl md:h-[40vh] lg:h-[45vh] xl:h-[50vh]"
   />
 </div>
 

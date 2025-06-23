@@ -1,4 +1,4 @@
-import profile from "../assets/profie.jpg"
+import profile from "../assets/profile.webp"
 import {
   FaLinkedin,
   FaGithub,
