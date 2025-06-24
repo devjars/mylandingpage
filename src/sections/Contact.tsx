@@ -1,4 +1,4 @@
-import profile from "../assets/profile.webp"
+import profile from "../assets/Screenshot_20250617_202233_Gallery.webp"
 import {
   FaLinkedin,
   FaGithub,

@@ -29,9 +29,11 @@ function MessageForm() {
      try {
       const res = await axios.post('https://api.emailjs.com/api/v1.0/email/send', data);
       if (res.status === 200) {
+         setStatus(true)
         setname('');
         setemail('');
         setmessage('');
+       
       }
     } catch (error) {
       console.error('Email failed:', error);
@@ -90,7 +92,7 @@ function MessageForm() {
         <button
         type="submit"
         disabled={loading}
-        className={`bg-ctmblue hover:bg-blue-600  text-white py-3 px-6 rounded-xl font-semibold transition ${
+        className={`bg-ctmblue hover:bg-blue-600  text-white py-3 px-6 rounded-xl font-semibold transition cursor-pointer ${
           loading ? 'opacity-60 cursor-not-allowed' : 'hover:bg-blue-700'
         }`}
       >
