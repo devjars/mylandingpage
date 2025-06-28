@@ -42,7 +42,7 @@ function Contact() {
          transition={{ duration: 0.6, ease: "easeOut" }}
             className="w-full  ">
                  <h2 className="text-white text-3xl font-bold  hidden md:block lg:text-4xl">Meet Your Project Partner</h2>
-                 <h2 className=" text-2xl text-gray-300 text-center font-medium md:text-left md:mt-2">John Anthont Solana</h2>
+                 <h2 className=" text-2xl text-gray-300 text-center font-medium md:text-left md:mt-2">John Anthony Solana</h2>
                           <p className=" text-gray-400 mt-2 text-center font-secondary md:text-left ">Full stack web Developer based in Phillippines</p>
                           <div className="w-full flex justify-center gap-6 text-4xl text-gray-500 mt-8 md:justify-start">
                     <a href="https://www.linkedin.com/in/johnanthonysolana/" aria-label="go to linkin" target="_blank" rel="noopener noreferrer">
