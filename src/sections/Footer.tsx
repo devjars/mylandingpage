@@ -20,15 +20,13 @@ function Footer() {
             Building fast, responsive, and effective websites tailored to your business goals.
           </p>
            <div className="flex items-center space-x-4 mt-8 text-3xl text-white">
-            <a href="https://facebook.com/yourprofile" aria-label="go to facebook"  target="_blank" rel="noreferrer" className="hover:text-gray-400">
+            <a href="https://www.facebook.com/john.solana.96/" aria-label="go to facebook"  target="_blank" rel="noreferrer" className="hover:text-gray-400">
               <FaFacebookSquare />
             </a>
-            <a href="https://instagram.com/yourprofile" aria-label="goto instagram" target="_blank" rel="noreferrer" className="hover:text-gray-400">
+            <a href="https://www.instagram.com/anjo_solana/" aria-label="goto instagram" target="_blank" rel="noreferrer" className="hover:text-gray-400">
               <FaInstagram />
             </a>
-            <a href="https://twitter.com/yourhandle"   aria-label="goto X"  target="_blank" rel="noreferrer" className="hover:text-gray-400">
-              <FaXTwitter />
-            </a>
+            
           </div>
         </div>
 

@@ -44,17 +44,17 @@ function Contact() {
                  <h2 className="text-white text-3xl font-bold  hidden md:block lg:text-4xl">Meet Your Project Partner</h2>
                  <h2 className=" text-2xl text-gray-300 text-center font-medium md:text-left md:mt-2">John Anthont Solana</h2>
                           <p className=" text-gray-400 mt-2 text-center font-secondary md:text-left ">Full stack web Developer based in Phillippines</p>
-                          <div className="w-full flex justify-center gap-4 text-4xl text-gray-500 mt-8 md:justify-start">
-                    <a href="https://linkedin.com" aria-label="go to linkin" target="_blank" rel="noopener noreferrer">
+                          <div className="w-full flex justify-center gap-6 text-4xl text-gray-500 mt-8 md:justify-start">
+                    <a href="https://www.linkedin.com/in/johnanthonysolana/" aria-label="go to linkin" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className="" />
                     </a>
-                    <a href="https://facebook.com" aria-label="go to whats app" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/639554368437" aria-label="go to whats app" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp />
                     </a>
-                    <a href="https://github.com" aria-label="go to Github" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/devjars" aria-label="go to Github" target="_blank" rel="noopener noreferrer">
                         <FaGithub />
                     </a>
-                    <a href="https://instagram.com" aria-label="go to viber" target="_blank" rel="noopener noreferrer">
+                    <a href="viber://chat?number=%2B639554368437" aria-label="go to viber" target="_blank" rel="noopener noreferrer">
                         <FaViber />
                     </a>
 
