@@ -3,8 +3,12 @@ import EllpowerThumbnail from "../assets/image (4).webp"
 import Stratfordhumbnail from "../assets/image (6).webp"
 import EllpowerThumbnail2 from "../assets/image (8).webp"
 import Stratfordhumbnail2 from "../assets/image (9).webp"
-const thumbnail1 : string [] = [EllpowerThumbnail,Stratfordhumbnail]
-const thumbnail2 : string [] = [EllpowerThumbnail2,Stratfordhumbnail2]
+import Genethink1 from  "../assets/image (5).webp"
+import Genethink2 from  "../assets/image (11).webp"
+import Portfolio from "../assets/image (12).webp"
+
+const thumbnail1 : string [] = [EllpowerThumbnail,Stratfordhumbnail,Genethink1,Portfolio]
+const thumbnail2 : string [] = [EllpowerThumbnail2,Stratfordhumbnail2,Genethink2]
 
 
 
