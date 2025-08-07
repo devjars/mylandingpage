@@ -14,7 +14,7 @@ function App() {
    <Router>
     <Routes>
 
-      <Route path='/*' element={ 
+      <Route path='*' element={ 
         <Layout>
             <Hero />
             <IconMarquee />
